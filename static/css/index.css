@@ -1,0 +1,70 @@
+body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .header {
+      position: fixed;
+      z-index: 2;
+    }
+
+    .title {
+      background-color: grey;
+      color: white;
+      width: 100%;
+      padding: 3px 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: 1pt;
+    }
+
+    .row {
+      margin: auto;
+    }
+
+    .title.black {
+      color: black;
+      background: white;
+      font-size: 200%;
+      text-align: center;
+      letter-spacing: 1.5pt;
+    }
+
+    .logo {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+    
+    .subtitle {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: 0.5pt;
+      color: dimgrey;
+      margin: auto;
+      text-align: center;
+    }
+
+    #title-sec {
+      margin-top: 100px;
+    }
+
+    #load-sec {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    #input-box {
+      width: 70%;
+      margin: auto;
+      letter-spacing: 0.5pt;
+    }
+
+    .load-btn-group {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 70%;
+      letter-spacing: 0.5pt;
+    }
+
+    .bold {
+      font-weight: bold;
+      color: black;
+    }

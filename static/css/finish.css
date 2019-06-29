@@ -1,0 +1,112 @@
+#title {
+  position: fixed;
+  z-index: 2;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  padding: 3px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1pt;
+  cursor: pointer;
+}
+
+.header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  margin: auto;
+}
+
+#left-sec {
+  /* border: 1px solid black; */
+  padding-top: 40px;
+  margin-left: 100px;
+  background-color: whitesmoke;
+}
+
+#middle-sec {
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+/* left sec */
+#input-box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.load-btn-group {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#player {
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+}
+
+#list-wrapper {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#list-header {
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#list {
+  max-height: 140px;
+  overflow: scroll;
+  overflow-y: scroll;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#list li {
+  border-radius: 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* middle sec */
+.diagram-wrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#myDiagramDiv {
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+/* #current-time, .bold {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.bold {
+  font-size: 100%;
+} */
+
+#goback-btn {
+  width: 100%;
+}

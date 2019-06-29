@@ -1,0 +1,175 @@
+#title {
+  position: fixed;
+  z-index: 2;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  padding: 3px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1pt;
+  cursor: pointer;
+}
+
+.header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  margin: auto;
+}
+
+#left-sec {
+  /* border: 1px solid black; */
+  padding-top: 40px;
+  margin-left: 50px;
+  background-color: whitesmoke;
+}
+
+#middle-sec {
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+/* left sec */
+#input-box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.load-btn-group {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#player {
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+}
+
+#list-wrapper {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#list-header {
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#no-formation-message {
+  text-align: center;
+}
+
+#list {
+  max-height: 140px;
+  overflow: scroll;
+  overflow-y: scroll;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#list li {
+  border-radius: 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#finish-btn {
+  width: 100%;
+}
+
+/* middle sec */
+#create-sec {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#current-time {
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 3px;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 120%;
+  font-weight: bold;
+  width: 80%;
+}
+
+#create-btn {
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+#current-info-wrapper {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#current-diagram-time, #current-diagram-name {
+  width: 200px;
+  display: inline-block;
+  visibility: hidden;
+  font-weight: bold;
+}
+
+#modify-btn-wrapper {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.diagram-wrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#myDiagramDiv {
+  visibility: hidden;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+#myPaletteDiv {
+  visibility: hidden;
+  margin-top: 5px;
+}
+
+#diagram-btn-wrapper {
+  border-radius: 5px;
+  visibility: hidden;
+  padding-left: 0 !important;
+}
+
+.diagram-btn {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  font-size: 80%;
+  width: 150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#download-btn {
+  display: none;
+  width: 680px;
+  margin-top: 10px;
+}
