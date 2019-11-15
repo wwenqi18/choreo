@@ -124,7 +124,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#current-diagram-time, #current-diagram-name {
+#current-diagram-time,
+#current-diagram-name {
   width: 200px;
   display: inline-block;
   visibility: hidden;
