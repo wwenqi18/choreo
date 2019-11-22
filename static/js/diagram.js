@@ -1,4 +1,5 @@
 var myDiagram;
+let node;
 
 $(document).ready(function() {
   const GO = go.GraphObject.make;
@@ -49,7 +50,7 @@ $(document).ready(function() {
       "Table",
       nodeStyle(),
       {
-        click: (e, obj) => changeColor(e, obj)
+        click: (e, obj) => triggerTooltip(e, obj)
       },
       GO(
         go.Shape,
@@ -79,7 +80,7 @@ $(document).ready(function() {
     )
   );
 
-  function changeColor(e, obj) {
+  function triggerTooltip(e, obj) {
     if (toolTipVisible) {
       hideToolTip();
       return;
@@ -87,14 +88,24 @@ $(document).ready(function() {
 
     showToolTip(obj);
 
-    const colorpicker = document.getElementById("html5colorpicker");
-    colorpicker.onchange = function() {
-      const color = this.value;
-      const node = myDiagram.findNodeForKey(obj.part.data.key);
-      myDiagram.model.commit(m => {
-        m.set(node.data, "color", color);
-      }, "change color");
-    };
+    node = myDiagram.findNodeForKey(obj.part.data.key);
+  }
+
+  const colorpickers = document.getElementsByClassName("colorpicker");
+  Array.from(colorpickers).forEach(colorpicker =>
+    colorpicker.addEventListener("click", e => {
+      e.preventDefault();
+      color = colorpicker.value;
+      setObjColor(node, color);
+    })
+  );
+
+  function setObjColor(node, color) {
+    myDiagram.model.commit(m => {
+      console.log(node);
+      m.set(node.data, "color", color);
+    }, "change color");
+    hideToolTip();
   }
 
   function showToolTip() {
