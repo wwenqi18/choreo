@@ -40,7 +40,7 @@ python-engineio==3.9.3
 python-socketio==4.3.1
 python3-openid==3.1.0
 pytz==2018.7
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.20.1
 requests-oauthlib==1.0.0
 rsa==3.4.2
