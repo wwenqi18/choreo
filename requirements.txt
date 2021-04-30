@@ -43,7 +43,7 @@ pytz==2018.7
 PyYAML==5.1.2
 requests==2.20.1
 requests-oauthlib==1.0.0
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.2.1
 selenium==3.141.0
 six==1.12.0
