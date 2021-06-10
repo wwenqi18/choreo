@@ -9,7 +9,7 @@ Click==7.0
 colorama==0.3.9
 coverage==4.5.2
 defusedxml==0.5.0
-Django==2.1.4
+Django==2.2.24
 django-extensions==2.1.4
 django-werkzeug-debugger-runserver==0.3.1
 docutils==0.15.2
